@@ -5,7 +5,7 @@ from bitstring import BitArray
 #############################
 # statics
 
-LOG_LEVEL = 0
+LOG_LEVEL = 1
 
 ARRAYSTR = ["Theoretrical Value", "A3", "A2", "A1", "A0", "B3", "B2", "B1", "B0"]
 ARREYSUB_THEORETICAL_VALUE = 0
@@ -18,6 +18,7 @@ ARREYSUB_B2_VALUE = 6
 ARREYSUB_B1_VALUE = 7
 ARREYSUB_B0_VALUE = 8
 
+CODE_PATH = "4bitcounter_tb.vhd"
 
 
 #############################
@@ -31,7 +32,7 @@ ARREYSUB_B0_VALUE = 8
 
 def genPattern(i, arraySource, patternList):
     for p in [0,1]:
-        if LOG_LEVEL >= 1:
+        if LOG_LEVEL >= 3:
             print("i = " + str(i) + " / VALUE = " + str(p))
         array = copy.copy(arraySource)
         array.append(p)
@@ -55,27 +56,72 @@ genPattern(7,[], patternList)
 #############################
 # Calucurating Theoretrical Value
 for pattern in patternList:
-    A = int("".join(map(str, pattern[1:5])),2)
-    B = int("".join(map(str, pattern[5:9])),2)
+    A = int("".join(map(str, pattern[0:4])),2)
+    B = int("".join(map(str, pattern[4:8])),2)
+    if LOG_LEVEL >= 2:
+        print("A = " + str(A) + " / A = " + str(pattern[0:4]) + " / B = " + str(B) + " / B = " + str(pattern[4:8]), end="")
     pattern.insert(0, A + B)
-    if LOG_LEVEL >= 1:
-        print("A = " + str(A) + " / B = " + str(B) + " / Cal = " + str(A+B))
+    if LOG_LEVEL >= 2:
+        print(" / Cal = " + str(A+B))
 
 #############################
 # Sorting Pattern
 patternList.sort()
 for i in patternList:
-    print(i[0])
-
-exit()
+    if LOG_LEVEL >= 1:
+        print("A = " + str(int("".join(map(str, i[1:5])),2)) + " / A = " + str(i[1:5]) + " / B = " + str(int("".join(map(str, i[5:9])),2)) + " / B = " + str(i[5:9]) + " / cal = " + str(i[0]))
 
 #############################
 # Generating Code
-for i in range(9):
-    print(ARRAYSTR[i] + "_SIG <= " , end='')
-    for p in range(len(patternList)):
-        if (ARRAYSTR[i] == "Theoretrical Value"):
-            continue
-        print("\'" + str(patternList[p][i]) + "\'" + " after " + str(p * 10) + " ns, " , end='')
-    print(';\n', end='')
-    
+vhdFile = open(CODE_PATH, mode="w")
+print("""
+library IEEE;
+use IEEE.std_logic_1164.all;
+--------------------------------------
+entity fourbitadder_tb is  
+end entity fourbitadder_tb;
+------------------------------------------------------------
+architecture SIM of fourbitadder_tb is
+    component fourbitadder
+    Port (
+      A3	: in std_logic;
+      A2	: in std_logic;
+      A1	: in std_logic;
+      A0	: in std_logic;
+      B3	: in std_logic;
+      B2	: in std_logic;
+      B1	: in std_logic;
+      B0	: in std_logic;
+      C3	: out std_logic;
+      S3	: out std_logic;
+      S2	: out std_logic;
+      S1	: out std_logic;
+      S0	: out std_logic);
+    end component;
+      signal A3_SIG	: std_logic := '0';
+      signal A2_SIG	: std_logic := '0';
+      signal A1_SIG	: std_logic := '0';
+      signal A0_SIG	: std_logic := '0';
+      signal B3_SIG	: std_logic := '0';
+      signal B2_SIG	: std_logic := '0';
+      signal B1_SIG	: std_logic := '0';
+      signal B0_SIG	: std_logic := '0';
+
+      signal C3_SIG	: std_logic;
+      signal S3_SIG	: std_logic;
+      signal S2_SIG	: std_logic;
+      signal S1_SIG	: std_logic;
+      signal S0_SIG	: std_logic;
+
+  begin
+  U0: fourbitadder port map(A3 => A3_SIG, A2 => A2_SIG , A1 => A1_SIG , A0 => A0_SIG , B3 => B3_SIG , B2 => B2_SIG , B1 => B1_SIG , B0 => B0_SIG , C3 => C3_SIG , S3 => S3_SIG , S2 => S2_SIG , S1 => S1_SIG , S0 => S0_SIG );
+\n""", file=vhdFile, end="")
+
+for pin in range(1,9):
+    print("  " + ARRAYSTR[pin] + "_SIG <= " , end='', file=vhdFile)
+    for caseNum in range(len(patternList)):
+        print("\'" + str(patternList[caseNum][pin]) + "\'" + " after " + str(caseNum * 10) + " ns, " , end='', file=vhdFile)
+    print(';\n', end='', file=vhdFile)
+
+print("end architecture SIM;", file=vhdFile, end="")
+vhdFile.close()
