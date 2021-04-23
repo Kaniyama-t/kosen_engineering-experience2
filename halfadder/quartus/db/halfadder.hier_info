@@ -1,0 +1,10 @@
+|halfadder
+CLK => ~NO_FANOUT~
+A => W0.IN0
+A => W1.IN0
+B => W0.IN1
+B => W1.IN1
+S << W0.DB_MAX_OUTPUT_PORT_TYPE
+C << W1.DB_MAX_OUTPUT_PORT_TYPE
+
+

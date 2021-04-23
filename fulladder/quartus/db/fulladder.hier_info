@@ -1,0 +1,26 @@
+|fulladder
+X_IN => halfadder:U0.A
+Y_IN => halfadder:U0.B
+C_IN => halfadder:U1.B
+C_OUT <= W4.DB_MAX_OUTPUT_PORT_TYPE
+S_OUT <= halfadder:U1.S
+
+
+|fulladder|halfadder:U0
+A => W0.IN0
+A => W1.IN0
+B => W0.IN1
+B => W1.IN1
+S <= W0.DB_MAX_OUTPUT_PORT_TYPE
+C <= W1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder|halfadder:U1
+A => W0.IN0
+A => W1.IN0
+B => W0.IN1
+B => W1.IN1
+S <= W0.DB_MAX_OUTPUT_PORT_TYPE
+C <= W1.DB_MAX_OUTPUT_PORT_TYPE
+
+
