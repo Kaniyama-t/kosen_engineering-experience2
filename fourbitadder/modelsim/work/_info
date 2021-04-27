@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11e MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -9,26 +10,27 @@ z2
 cModel Technology
 dC:/e17266/fulladder/modelsim
 Efourbitadder
-Z0 w1618389518
-Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z0 w1618390116
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z6 dC:/e17266/fourbitadder/modelsim
-Z7 8C:/e17266/fourbitadder/modelsim/fourbitadder.vhd
-Z8 FC:/e17266/fourbitadder/modelsim/fourbitadder.vhd
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 12
+Z6 d/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim
+Z7 8/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fourbitadder.vhd
+Z8 F/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fourbitadder.vhd
 l0
-L7
+L7 1
 VbU:?jZ@2RcH927dk=fkgg1
 !s100 9U;h[o6T`P:iLB`HTPV5l3
-Z9 OV;C;10.5b;63
+Z9 OV;C;2020.1;71
 32
-Z10 !s110 1618389998
+Z10 !s110 1619505376
 !i10b 1
-Z11 !s108 1618389998.000000
-Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e17266/fourbitadder/modelsim/fourbitadder.vhd|
-Z13 !s107 C:/e17266/fourbitadder/modelsim/fourbitadder.vhd|
+Z11 !s108 1619505376.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fourbitadder.vhd|
+Z13 !s107 /home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fourbitadder.vhd|
 !i113 1
 Z14 o-work work -2002 -explicit
 Z15 tExplicit 1 CvgOpt 0
@@ -39,8 +41,9 @@ R3
 R4
 R5
 DEx4 work 12 fourbitadder 0 22 bU:?jZ@2RcH927dk=fkgg1
+!i122 12
 l42
-L24
+L24 31
 Vd77gcHIgiN7:E`fRE_UVm2
 !s100 NnC;5h``cmK[GHdPBVh5h2
 R9
@@ -54,34 +57,36 @@ R13
 R14
 R15
 Efourbitadder_tb
-Z16 w1618389989
+Z16 w1619510387
 R4
 R5
+!i122 36
 R6
-Z17 8C:\e17266\fourbitadder\modelsim\fourbitadder_tb.vhd
-Z18 FC:\e17266\fourbitadder\modelsim\fourbitadder_tb.vhd
+Z17 8/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fourbitcounter_tb.vhd
+Z18 F/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fourbitcounter_tb.vhd
 l0
-L7
-VHBY>Ph=AHEZ>VNzEcSZM^1
-!s100 _jXBlj_PcF:C_QASLM9VZ1
+L4 1
+VgzDF]OPb[UzCYh41D^5SQ0
+!s100 :69O[ae>Mk1^ZTaD5iYbU3
 R9
 32
-Z19 !s110 1618389997
+Z19 !s110 1619510404
 !i10b 1
-Z20 !s108 1618389997.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\e17266\fourbitadder\modelsim\fourbitadder_tb.vhd|
-Z22 !s107 C:\e17266\fourbitadder\modelsim\fourbitadder_tb.vhd|
+Z20 !s108 1619510404.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fourbitcounter_tb.vhd|
+Z22 !s107 /home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fourbitcounter_tb.vhd|
 !i113 1
 R14
 R15
 Asim
 R4
 R5
-DEx4 work 15 fourbitadder_tb 0 22 HBY>Ph=AHEZ>VNzEcSZM^1
-l42
-L10
-VGamTB;=bd9K@khe_:8kHX2
-!s100 >GjR6UDH62R8DA73OO_bL1
+Z23 DEx4 work 15 fourbitadder_tb 0 22 gzDF]OPb[UzCYh41D^5SQ0
+!i122 36
+l39
+L7 55
+VLIC[JRiXMk_oU^JnUbEX02
+!s100 SS6N>J6TPKchCn7cM4BS20
 R9
 32
 R19
@@ -93,17 +98,18 @@ R22
 R14
 R15
 Efulladder
-Z23 w1618381118
+Z24 w1618381120
 R1
 R2
 R3
 R4
 R5
+!i122 14
 R6
-Z24 8C:/e17266/fourbitadder/modelsim/fulladder.vhd
-Z25 FC:/e17266/fourbitadder/modelsim/fulladder.vhd
+Z25 8/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fulladder.vhd
+Z26 F/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fulladder.vhd
 l0
-L7
+L7 1
 VPTTR1:cDNjgeSiMfNAEWg0
 !s100 B9cXYVo;Qmz>b]OX6^P1C1
 R9
@@ -111,8 +117,8 @@ R9
 R10
 !i10b 1
 R11
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e17266/fourbitadder/modelsim/fulladder.vhd|
-Z27 !s107 C:/e17266/fourbitadder/modelsim/fulladder.vhd|
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fulladder.vhd|
+Z28 !s107 /home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/fulladder.vhd|
 !i113 1
 R14
 R15
@@ -122,42 +128,44 @@ R2
 R3
 R4
 R5
-Z28 DEx4 work 9 fulladder 0 22 PTTR1:cDNjgeSiMfNAEWg0
+DEx4 work 9 fulladder 0 22 PTTR1:cDNjgeSiMfNAEWg0
+!i122 14
 l25
-L16
-Z29 VKMU9YF?D5nNMAfn86RZZk2
-Z30 !s100 cemR6>C>bQi<j;no>?<563
+L16 16
+VKMU9YF?D5nNMAfn86RZZk2
+!s100 cemR6>C>bQi<j;no>?<563
 R9
 32
 R10
 !i10b 1
 R11
-R26
 R27
+R28
 !i113 1
 R14
 R15
 Ehalfadder
-Z31 w1618380442
+Z29 w1618380444
 R1
 R2
 R3
 R4
 R5
+!i122 15
 R6
-Z32 8C:/e17266/fourbitadder/modelsim/halfadder.vhd
-Z33 FC:/e17266/fourbitadder/modelsim/halfadder.vhd
+Z30 8/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/halfadder.vhd
+Z31 F/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/halfadder.vhd
 l0
-L7
+L7 1
 VnUInC]5m=VV[zeODneCPE1
 !s100 IlJmhh=Z6RB`h@5^UniY71
 R9
 32
-R19
+R10
 !i10b 1
-R20
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e17266/fourbitadder/modelsim/halfadder.vhd|
-Z35 !s107 C:/e17266/fourbitadder/modelsim/halfadder.vhd|
+R11
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/halfadder.vhd|
+Z33 !s107 /home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/halfadder.vhd|
 !i113 1
 R14
 R15
@@ -168,17 +176,18 @@ R3
 R4
 R5
 DEx4 work 9 halfadder 0 22 nUInC]5m=VV[zeODneCPE1
+!i122 15
 l17
-L15
+L15 8
 V83fFLAjF_E8=b=aHVfOD=1
 !s100 filNmVIcM^;EOT`BaE26m2
 R9
 32
-R19
+R10
 !i10b 1
-R20
-R34
-R35
+R11
+R32
+R33
 !i113 1
 R14
 R15

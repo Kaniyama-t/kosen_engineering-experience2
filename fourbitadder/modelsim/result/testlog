@@ -1,0 +1,517 @@
+# /home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/testlog
+set PrefMain(saveFile) testlog/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/testlog
+# testlog/home/kaniyama/domestic/kosen_engineeringExperience2/202004_VHDL/fourbitadder/modelsim/testlog
+# Load canceled
+run -all
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 3 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 13 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 23 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 33 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 43 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 53 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 63 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 73 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 83 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 93 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 103 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 113 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 123 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 133 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 143 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 153 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 163 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 173 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 183 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 193 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 203 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 213 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 223 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 233 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 243 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 253 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 263 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 273 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 283 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 293 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 303 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 313 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 323 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 333 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 343 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 353 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 363 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 373 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 383 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 393 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 403 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 413 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 423 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 433 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 443 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 453 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 463 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 473 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 483 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 493 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 503 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 513 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 523 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 533 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 543 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 553 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 563 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 573 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 583 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 593 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 603 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 613 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 623 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 633 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 643 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 653 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 663 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 673 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 683 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 693 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 703 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 713 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 723 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 733 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 743 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 753 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 763 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 773 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 783 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 793 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 803 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 813 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 823 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 833 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 843 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 853 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 863 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 873 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 883 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 893 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 903 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 913 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 923 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 933 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 943 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 953 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 963 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 973 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 983 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 993 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 1003 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 1013 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 1023 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 1033 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 1043 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1053 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1063 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1073 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1083 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1093 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1103 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1113 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1123 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1133 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1143 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1153 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1163 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1173 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1183 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 1193 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1203 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1213 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1223 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1233 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1243 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1253 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1263 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1273 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1283 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1293 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1303 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1313 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1323 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1333 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1343 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '0'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 1353 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1363 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1373 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1383 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1393 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1403 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1413 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1423 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1433 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1443 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1453 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1463 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1473 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1483 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1493 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 1503 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1513 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1523 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1533 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1543 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1553 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1563 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1573 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1583 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1593 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1603 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1613 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1623 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1633 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 1643 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1653 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1663 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1673 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1683 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1693 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1703 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1713 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1723 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1733 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1743 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1753 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1763 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 1773 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1783 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1793 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1803 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1813 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1823 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1833 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1843 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1853 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1863 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1873 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1883 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 1893 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1903 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1913 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1923 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1933 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1943 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1953 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1963 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1973 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1983 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 1993 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 2003 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2013 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2023 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2033 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2043 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2053 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2063 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2073 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2083 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2093 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2103 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '0'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2113 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2123 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2133 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2143 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2153 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2163 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2173 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2183 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '0'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2193 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 2203 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 2213 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 2223 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 2233 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 2243 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 2253 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 2263 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '0'] S2:[ '1'] S1:[ '1'] S0:[ '1']
+#    Time: 2273 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 2283 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 2293 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 2303 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 2313 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 2323 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 2333 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '0']
+#    Time: 2343 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 2353 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 2363 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 2373 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 2383 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 2393 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '0'] S0:[ '1']
+#    Time: 2403 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '0'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 2413 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 2423 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 2433 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 2443 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '0'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '0']
+#    Time: 2453 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 2463 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 2473 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 2483 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '0'] S1:[ '1'] S0:[ '1']
+#    Time: 2493 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '0'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 2503 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 2513 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '0'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '0']
+#    Time: 2523 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '0'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2533 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '0'] C3:[ '1'] S3:[ '1'] S2:[ '1'] S1:[ '0'] S0:[ '1']
+#    Time: 2543 ns  Iteration: 0  Instance: /fourbitadder_tb
+# ** Note: A3:[ '1'] A2:[ '1'] A1:[ '1'] A0:[ '1'] B3:[ '1'] B2:[ '1'] B1:[ '1'] B0:[ '1'] C3:[ '1'] S3:[ '1'] S2:[ '1'] S1:[ '1'] S0:[ '0']
+#    Time: 2553 ns  Iteration: 0  Instance: /fourbitadder_tb

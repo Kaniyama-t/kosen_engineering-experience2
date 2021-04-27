@@ -7,7 +7,7 @@ from bitstring import BitArray
 
 LOG_LEVEL = 1
 
-ARRAYSTR = ["Theoretrical Value", "A3", "A2", "A1", "A0", "B3", "B2", "B1", "B0"]
+ARRAYSTR = ["Theoretrical Value", "A3", "A2", "A1", "A0", "B3", "B2", "B1", "B0", "C3", "S3", "S2", "S1", "S0"]
 ARREYSUB_THEORETICAL_VALUE = 0
 ARREYSUB_A3_VALUE = 1
 ARREYSUB_A2_VALUE = 2
@@ -18,7 +18,8 @@ ARREYSUB_B2_VALUE = 6
 ARREYSUB_B1_VALUE = 7
 ARREYSUB_B0_VALUE = 8
 
-CODE_PATH = "4bitcounter_tb.vhd"
+CODE_PATH = "fourbitcounter_tb.vhd"
+RESULT_PATH = "fourbitcounter_tb.result"
 
 
 #############################
@@ -123,5 +124,41 @@ for pin in range(1,9):
         print("\'" + str(patternList[caseNum][pin]) + "\'" + " after " + str(caseNum * 10) + " ns, " , end='', file=vhdFile)
     print(';\n', end='', file=vhdFile)
 
-print("end architecture SIM;", file=vhdFile, end="")
+print("""
+  process
+  variable i : integer := 0;
+    begin
+    wait for 3 ns;
+    for i in 0 to 2560 loop
+    report "A3:[ " & std_logic'image(A3_SIG) & "] A2:[ " & std_logic'image(A2_SIG) & "] A1:[ " & std_logic'image(A1_SIG) & "] A0:[ " & std_logic'image(A0_SIG) & "] B3:[ " & std_logic'image(B3_SIG) & "] B2:[ " & std_logic'image(B2_SIG) & "] B1:[ " & std_logic'image(B1_SIG) & "] B0:[ " & std_logic'image(B0_SIG) & "] C3:[ " & std_logic'image(C3_SIG) & "] S3:[ " & std_logic'image(S3_SIG) & "] S2:[ " & std_logic'image(S2_SIG) & "] S1:[ " & std_logic'image(S1_SIG) & "] S0:[ " & std_logic'image(S0_SIG) & "]";
+    wait for 10 ns;
+    end loop;
+    wait;
+  end process;
+end architecture SIM;
+""", file=vhdFile, end="")
 vhdFile.close()
+
+#############################
+# Deleting Invalid Syntax
+vhdFile = open(CODE_PATH, mode="r+")
+TBCode = vhdFile.read()
+modifiedTBCode = TBCode.replace(", ;",";")
+vhdFile.write(modifiedTBCode)
+
+#############################
+# Generating Test Code
+resultFile = open(RESULT_PATH, mode="w")
+for i in patternList:
+    if LOG_LEVEL >= 1:
+        for p in range(1,9):
+            print(ARRAYSTR[p] + ":[\'" + str(i[p]) + "\'] ", file=resultFile, end="")
+        caledResVal = str(bin(i[0])).replace("b","").zfill(5)
+        if len(caledResVal) > 5:
+            caledResVal = caledResVal[1:6]
+        print(caledResVal)
+        for q in range (9,14):
+            print(ARRAYSTR[q] + ":[\'" + str(caledResVal[q-9:q-8]) + "\'] ", file=resultFile, end="")
+
+        print("\n", file=resultFile, end="")
+        print("A = " + str(int("".join(map(str, i[1:5])),2)) + " / A = " + str(i[1:5]) + " / B = " + str(int("".join(map(str, i[5:9])),2)) + " / B = " + str(i[5:9]) + " / cal = " + str(i[0]))
