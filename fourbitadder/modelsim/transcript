@@ -1,21 +1,3 @@
-# 0 compiles, 4 failed with no errors.
-# Compile of fourbitadder.vhd was successful.
-# Compile of fourbitcounter_tb.vhd failed with 8 errors.
-# Compile of fulladder.vhd was successful.
-# Compile of halfadder.vhd was successful.
-# 4 compiles, 1 failed with 8 errors.
-# Compile of fourbitadder.vhd was successful.
-# Compile of fourbitcounter_tb.vhd failed with 8 errors.
-# Compile of fulladder.vhd was successful.
-# Compile of halfadder.vhd was successful.
-# 4 compiles, 1 failed with 8 errors.
-# Compile of fourbitadder.vhd was successful.
-# Compile of fourbitcounter_tb.vhd failed with 8 errors.
-# Compile of fulladder.vhd was successful.
-# Compile of halfadder.vhd was successful.
-# 4 compiles, 1 failed with 8 errors.
 # Compile of fourbitadder.vhd was successful.
 # Compile of fourbitcounter_tb.vhd was successful.
-# Compile of fulladder.vhd was successful.
-# Compile of halfadder.vhd was successful.
-# 4 compiles, 0 failed with no errors.
+# 2 compiles, 0 failed with no errors.
