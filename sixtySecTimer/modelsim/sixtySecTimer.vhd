@@ -45,17 +45,20 @@ architecture RTL of sixtySecTimer is
  signal oneSecSignal : std_logic;
 
  signal currentTimeValueH : std_logic_vector(2 downto 0);
+ signal currentTimeValueHIN : std_logic_vector(3 downto 0);
  signal currentTimeValueL : std_logic_vector(3 downto 0);
  begin
     CLK_sig <= CLK;
     RST_sig <= KEY(0);
+    currentTimeValueHIN <= '0' & currentTimeValueH;
+
     ChatteringA: chattering2 port map(SW=>KEY(1),CLK=>CLK_sig,SOUT=>Btn(0));
     ChatteringB: chattering2 port map(SW=>KEY(2),CLK=>CLK_sig,SOUT=>Btn(1));
 
     measure1sec: cnt1sec port map(CLK=>CLK_sig,RST=>RST_sig,EN1Hz=>oneSecSignal);
 
     Counter : cnt60 port map(CLK=>CLK_sig,RST=>RST_sig,CLR=>Btn(1),CEN=>oneSecSignal,INC=>Btn(0),QH=>currentTimeValueH,QL=>currentTimeValueL);
-    DecoderA : sec7dec port map(DIN=>('0' & currentTimeValueH),HEX=>HEX1);
+    DecoderA : sec7dec port map(DIN=>currentTimeValueHIN,HEX=>HEX1);
     DecoderB : sec7dec port map(DIN=>currentTimeValueL,HEX=>HEX0);
 
 end architecture RTL;
