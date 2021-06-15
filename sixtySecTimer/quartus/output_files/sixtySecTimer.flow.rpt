@@ -1,5 +1,5 @@
 Flow report for sixtySecTimer
-Mon May  3 11:22:06 2021
+Wed May 19 15:58:07 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon May  3 11:22:06 2021       ;
+; Flow Status                        ; Successful - Wed May 19 15:58:07 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; sixtySecTimer                               ;
 ; Top-level Entity Name              ; sixtySecTimer                               ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 75 / 49,760 ( < 1 % )                       ;
-;     Total combinational functions  ; 71 / 49,760 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 38 / 49,760 ( < 1 % )                       ;
-; Total registers                    ; 38                                          ;
-; Total pins                         ; 19 / 360 ( 5 % )                            ;
+; Total logic elements               ; 82 / 49,760 ( < 1 % )                       ;
+;     Total combinational functions  ; 82 / 49,760 ( < 1 % )                       ;
+;     Dedicated logic registers      ; 33 / 49,760 ( < 1 % )                       ;
+; Total registers                    ; 33                                          ;
+; Total pins                         ; 18 / 360 ( 5 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
 ; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/03/2021 11:21:38 ;
+; Start date & time ; 05/19/2021 15:57:46 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; sixtySecTimer       ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 110912391600.162000849804695           ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 110912391600.162140746660298           ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -88,6 +88,10 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --                                ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --          ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                      ; --            ; --          ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                             ; --            ; --          ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                             ; --            ; --          ; --                                ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
@@ -102,12 +106,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 437 MB              ; 00:00:20                           ;
-; Fitter               ; 00:00:11     ; 1.0                     ; 1098 MB             ; 00:00:14                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 359 MB              ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 510 MB              ; 00:00:03                           ;
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 433 MB              ; 00:00:18                           ;
+; Fitter               ; 00:00:07     ; 1.0                     ; 1090 MB             ; 00:00:11                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 358 MB              ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:01     ; 1.1                     ; 514 MB              ; 00:00:02                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 596 MB              ; 00:00:00                           ;
-; Total                ; 00:00:24     ; --                      ; --                  ; 00:00:39                           ;
+; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:33                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

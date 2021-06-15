@@ -16,10 +16,10 @@ architecture RTL of cnt1sec is
  begin
  if ( RST='0') then CNT <= (others=>'0');
  elsif (rising_edge(CLK)) then
- if (CNT=49999999) then CNT <= (others=>'0');
+ if (CNT=49999998) then CNT <= (others=>'0');
  else CNT <= CNT +1;
  end if;
  end if;
  end process;
- EN1Hz <= '1' when CNT=49999999 else '0';
+ EN1Hz <= '1' when CNT=49999998 else '0';
 end architecture RTL;

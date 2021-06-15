@@ -20,6 +20,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity cnt1sec
 -- Compiling architecture RTL of cnt1sec
 
+} {} {}} /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sixtySecTimer_tb
+-- Compiling architecture SIM of sixtySecTimer_tb
+
 } {} {}} /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD

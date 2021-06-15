@@ -1,43 +1,24 @@
 |sixtySecTimer
 KEY[0] => cnt1sec:measure1sec.RST
 KEY[0] => cnt60:Counter.RST
-KEY[1] => chattering2:ChatteringA.SW
-KEY[2] => chattering2:ChatteringB.SW
-CLOCK_50 => ~NO_FANOUT~
-CLK => chattering2:ChatteringA.CLK
-CLK => chattering2:ChatteringB.CLK
+KEY[1] => cnt60:Counter.CLR
+KEY[2] => cnt60:Counter.INC
 CLK => cnt1sec:measure1sec.CLK
 CLK => cnt60:Counter.CLK
-HEX1[0] <= sec7dec:DecoderA.HEX[0]
-HEX1[1] <= sec7dec:DecoderA.HEX[1]
-HEX1[2] <= sec7dec:DecoderA.HEX[2]
-HEX1[3] <= sec7dec:DecoderA.HEX[3]
-HEX1[4] <= sec7dec:DecoderA.HEX[4]
-HEX1[5] <= sec7dec:DecoderA.HEX[5]
-HEX1[6] <= sec7dec:DecoderA.HEX[6]
-HEX0[0] <= sec7dec:DecoderB.HEX[0]
-HEX0[1] <= sec7dec:DecoderB.HEX[1]
-HEX0[2] <= sec7dec:DecoderB.HEX[2]
-HEX0[3] <= sec7dec:DecoderB.HEX[3]
-HEX0[4] <= sec7dec:DecoderB.HEX[4]
-HEX0[5] <= sec7dec:DecoderB.HEX[5]
-HEX0[6] <= sec7dec:DecoderB.HEX[6]
-
-
-|sixtySecTimer|chattering2:ChatteringA
-CLK => FF1.CLK
-CLK => FF2.CLK
-CLK => SOUT~reg0.CLK
-SW => FF1.DATAIN
-SOUT <= SOUT~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|sixtySecTimer|chattering2:ChatteringB
-CLK => FF1.CLK
-CLK => FF2.CLK
-CLK => SOUT~reg0.CLK
-SW => FF1.DATAIN
-SOUT <= SOUT~reg0.DB_MAX_OUTPUT_PORT_TYPE
+HEX1[0] << sec7dec:DecoderA.HEX[0]
+HEX1[1] << sec7dec:DecoderA.HEX[1]
+HEX1[2] << sec7dec:DecoderA.HEX[2]
+HEX1[3] << sec7dec:DecoderA.HEX[3]
+HEX1[4] << sec7dec:DecoderA.HEX[4]
+HEX1[5] << sec7dec:DecoderA.HEX[5]
+HEX1[6] << sec7dec:DecoderA.HEX[6]
+HEX0[0] << sec7dec:DecoderB.HEX[0]
+HEX0[1] << sec7dec:DecoderB.HEX[1]
+HEX0[2] << sec7dec:DecoderB.HEX[2]
+HEX0[3] << sec7dec:DecoderB.HEX[3]
+HEX0[4] << sec7dec:DecoderB.HEX[4]
+HEX0[5] << sec7dec:DecoderB.HEX[5]
+HEX0[6] << sec7dec:DecoderB.HEX[6]
 
 
 |sixtySecTimer|cnt1sec:measure1sec
@@ -104,11 +85,33 @@ CLK => QLsig[0].CLK
 CLK => QLsig[1].CLK
 CLK => QLsig[2].CLK
 CLK => QLsig[3].CLK
-RST => process_0.IN0
-CLR => process_0.IN1
+RST => counting.IN1
+RST => QHsig[0].ACLR
+RST => QHsig[1].ACLR
+RST => QHsig[2].ACLR
+RST => QLsig[0].ACLR
+RST => QLsig[1].ACLR
+RST => QLsig[2].ACLR
+RST => QLsig[3].ACLR
+CLR => counting.IN0
+CLR => counting.DATAIN
+CLR => QLsig[3].ENA
+CLR => QLsig[2].ENA
+CLR => QLsig[1].ENA
+CLR => QLsig[0].ENA
+CLR => QHsig[2].ENA
+CLR => QHsig[1].ENA
+CLR => QHsig[0].ENA
+CEN => process_0.IN1
 CEN => CA.IN1
-CEN => process_0.IN0
-INC => process_0.IN1
+INC => counting.IN1
+INC => QHsig[0].OUTPUTSELECT
+INC => QHsig[1].OUTPUTSELECT
+INC => QHsig[2].OUTPUTSELECT
+INC => QLsig[0].OUTPUTSELECT
+INC => QLsig[1].OUTPUTSELECT
+INC => QLsig[2].OUTPUTSELECT
+INC => QLsig[3].OUTPUTSELECT
 QH[0] <= QHsig[0].DB_MAX_OUTPUT_PORT_TYPE
 QH[1] <= QHsig[1].DB_MAX_OUTPUT_PORT_TYPE
 QH[2] <= QHsig[2].DB_MAX_OUTPUT_PORT_TYPE

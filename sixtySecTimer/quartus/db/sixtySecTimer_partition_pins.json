@@ -60,11 +60,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "CLK",
-					"strict" : false
-				},
-				{
-					"name" : "KEY[0]",
+					"name" : "KEY[1]",
 					"strict" : false
 				},
 				{
@@ -72,7 +68,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "KEY[1]",
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
 					"strict" : false
 				}
 			]

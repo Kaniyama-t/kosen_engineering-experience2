@@ -16,7 +16,7 @@ Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 20
+!i122 70
 Z6 d/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim
 Z7 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/chattering2.vhd
 Z8 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/chattering2.vhd
@@ -26,9 +26,9 @@ VWc2z4_N`UaCjHgbKRe:D;0
 !s100 aXS1OJUkc=jNmUaIRQ5GK0
 Z9 OV;C;2020.1;71
 32
-Z10 !s110 1620275398
+Z10 !s110 1623211279
 !i10b 1
-Z11 !s108 1620275397.000000
+Z11 !s108 1623211279.000000
 Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/chattering2.vhd|
 Z13 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/chattering2.vhd|
 !i113 1
@@ -41,7 +41,7 @@ R3
 R4
 R5
 DEx4 work 11 chattering2 0 22 Wc2z4_N`UaCjHgbKRe:D;0
-!i122 20
+!i122 70
 l16
 L12 18
 V<PFC<NcPEmGeBOSP]j]lk3
@@ -63,7 +63,7 @@ R2
 R3
 R4
 R5
-!i122 21
+!i122 71
 R6
 Z17 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt1sec.vhd
 Z18 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt1sec.vhd
@@ -75,9 +75,9 @@ R9
 32
 R10
 !i10b 1
-Z19 !s108 1620275398.000000
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt1sec.vhd|
-Z21 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt1sec.vhd|
+R11
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt1sec.vhd|
+Z20 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt1sec.vhd|
 !i113 1
 R14
 R15
@@ -88,7 +88,7 @@ R3
 R4
 R5
 DEx4 work 7 cnt1sec 0 22 NLY?91eM_IbIgB1TB@g_Z3
-!i122 21
+!i122 71
 l14
 L12 14
 V31f8`TReC4fZT;lD9d_I91
@@ -97,23 +97,23 @@ R9
 32
 R10
 !i10b 1
+R11
 R19
 R20
-R21
 !i113 1
 R14
 R15
 Ecnt60
-Z22 w1620274970
+Z21 w1620274970
 R1
 R2
 R3
 R4
 R5
-!i122 22
+!i122 72
 R6
-Z23 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt60.vhd
-Z24 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt60.vhd
+Z22 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt60.vhd
+Z23 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt60.vhd
 l0
 L6 1
 VOZRkS^=M6FRFFoHJIQLI90
@@ -122,9 +122,9 @@ R9
 32
 R10
 !i10b 1
-R19
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt60.vhd|
-Z26 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt60.vhd|
+R11
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt60.vhd|
+Z25 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/cnt60.vhd|
 !i113 1
 R14
 R15
@@ -135,7 +135,7 @@ R3
 R4
 R5
 DEx4 work 5 cnt60 0 22 OZRkS^=M6FRFFoHJIQLI90
-!i122 22
+!i122 72
 l17
 L14 24
 V1DZlCh`h36=P4N5mATG7V0
@@ -144,23 +144,23 @@ R9
 32
 R10
 !i10b 1
-R19
+R11
+R24
 R25
-R26
 !i113 1
 R14
 R15
 Esec7dec
-Z27 w1620008176
+Z26 w1620008176
 R1
 R2
 R3
 R4
 R5
-!i122 23
+!i122 73
 R6
-Z28 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd
-Z29 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd
+Z27 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd
+Z28 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd
 l0
 L6 1
 VZkTm71h^omC]TZmVB=9F_2
@@ -169,9 +169,9 @@ R9
 32
 R10
 !i10b 1
-R19
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd|
-Z31 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd|
+R11
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd|
+Z30 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sec7dec.vhd|
 !i113 1
 R14
 R15
@@ -182,7 +182,7 @@ R3
 R4
 R5
 DEx4 work 7 sec7dec 0 22 ZkTm71h^omC]TZmVB=9F_2
-!i122 23
+!i122 73
 l12
 L11 24
 VcfhaKiNG8DH;31X1nVJdM1
@@ -191,34 +191,34 @@ R9
 32
 R10
 !i10b 1
-R19
+R11
+R29
 R30
-R31
 !i113 1
 R14
 R15
 Esixtysectimer
-Z32 w1620274608
+Z31 w1620276720
 R1
 R2
 R3
 R4
 R5
-!i122 24
+!i122 74
 R6
-Z33 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer.vhd
-Z34 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer.vhd
+Z32 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer.vhd
+Z33 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer.vhd
 l0
-L6 1
-VgSIdTeXN;UU6F5OlP8A5V0
-!s100 PA[@b`8@c4?lg9V3ShU;?2
+L7 1
+V06k12>[IDCOeT2jog]HbB1
+!s100 Pl2_Ge4>KFXEUXVV>bbo>2
 R9
 32
 R10
 !i10b 1
-R19
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer.vhd|
-Z36 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer.vhd|
+R11
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer.vhd|
+Z35 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer.vhd|
 !i113 1
 R14
 R15
@@ -228,30 +228,30 @@ R2
 R3
 R4
 R5
-DEx4 work 13 sixtysectimer 0 22 gSIdTeXN;UU6F5OlP8A5V0
-!i122 24
-l50
-L14 51
-V5HJ^ik@Hga2`>;U?M9idD3
-!s100 J;OgS;`j9dPd4fhJ:NGU72
+DEx4 work 13 sixtysectimer 0 22 06k12>[IDCOeT2jog]HbB1
+!i122 74
+l55
+L18 52
+VkYXb3GIn]g:IoP;m^a`z_0
+!s100 RhGRPkLa4ecDPFY]5af>`2
 R9
 32
 R10
 !i10b 1
-R19
+R11
+R34
 R35
-R36
 !i113 1
 R14
 R15
 Esixtysectimer_tb
-Z37 w1620275392
+Z36 w1621399932
 R4
 R5
-!i122 25
+!i122 75
 R6
-Z38 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd
-Z39 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd
+Z37 8/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd
+Z38 F/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd
 l0
 L4 1
 V>I?g1YFMDbmF2^H4AVe<E3
@@ -260,28 +260,28 @@ R9
 32
 R10
 !i10b 1
-R19
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd|
-Z41 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd|
+R11
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd|
+Z40 !s107 /home/kaniyama/d/kosen_engineeringExperience2/202004_VHDL/sixtySecTimer/modelsim/sixtySecTimer_tb.vhd|
 !i113 1
 R14
 R15
 Asim
 R4
 R5
-Z42 DEx4 work 16 sixtysectimer_tb 0 22 >I?g1YFMDbmF2^H4AVe<E3
-!i122 25
-l21
-Z43 L7 23
-VFWT1[ah5GXmGAhI=QBT=O1
-!s100 EeZ^LiTflB;Rl5Rm`b[Pz2
+Z41 DEx4 work 16 sixtysectimer_tb 0 22 >I?g1YFMDbmF2^H4AVe<E3
+!i122 75
+l23
+Z42 L7 25
+Z43 VXB[;1a:g2d8Y@TLmaf2jz1
+Z44 !s100 K=P<7L9R0D;3;JYYQ8QSX1
 R9
 32
 R10
 !i10b 1
-R19
+R11
+R39
 R40
-R41
 !i113 1
 R14
 R15
