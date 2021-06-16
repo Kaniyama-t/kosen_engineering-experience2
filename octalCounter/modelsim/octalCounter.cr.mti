@@ -1,0 +1,17 @@
+C:/e17266/octalCounter/modelsim/counter_8.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/e17266/octalCounter/modelsim/counter_8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity counter_8
+-- Compiling architecture fsm of counter_8
+
+} {} {}} C:/e17266/octalCounter/modelsim/tb_counter_8.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/e17266/octalCounter/modelsim/tb_counter_8.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_counter_8
+-- Compiling architecture SIM of tb_counter_8
+
+} {} {}}

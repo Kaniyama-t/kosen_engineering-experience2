@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+Ecounter_8
+Z0 w1612326679
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/e17266/octalCounter/modelsim
+Z4 8C:/e17266/octalCounter/modelsim/counter_8.vhd
+Z5 FC:/e17266/octalCounter/modelsim/counter_8.vhd
+l0
+L4
+V4mB7NCf[TG6TlfB>k=M770
+!s100 V>8JF?LnjXG]]m;H1=khc0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1623818327
+!i10b 1
+Z8 !s108 1623818327.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e17266/octalCounter/modelsim/counter_8.vhd|
+Z10 !s107 C:/e17266/octalCounter/modelsim/counter_8.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Afsm
+R1
+R2
+DEx4 work 9 counter_8 0 22 4mB7NCf[TG6TlfB>k=M770
+l16
+L9
+VSk:=^T[o;TGKW>m;dla5J0
+!s100 EQ^@T446_]198FYg7Nm0A0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_counter_8
+Z13 w1612327043
+R1
+R2
+R3
+Z14 8C:/e17266/octalCounter/modelsim/tb_counter_8.vhd
+Z15 FC:/e17266/octalCounter/modelsim/tb_counter_8.vhd
+l0
+L4
+V]aY45Yk>d0I926:68@g313
+!s100 OGzFc^Q9a0GC[cgz`f>NJ1
+R6
+32
+Z16 !s110 1623818326
+!i10b 1
+Z17 !s108 1623818326.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e17266/octalCounter/modelsim/tb_counter_8.vhd|
+Z19 !s107 C:/e17266/octalCounter/modelsim/tb_counter_8.vhd|
+!i113 1
+R11
+R12
+Asim
+R1
+R2
+DEx4 work 12 tb_counter_8 0 22 ]aY45Yk>d0I926:68@g313
+l17
+L7
+VE<JIXEiNzJT4P@RK[J<Y30
+!s100 AJk9CEo=2O@z`=3]H@6=m0
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
