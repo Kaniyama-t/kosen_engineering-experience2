@@ -17,5 +17,5 @@ signal OUTPUT : natural :=0;
 begin
 U0: counter_8 port map(CLK=>CLK, RST=>RST, OUTPUT=>OUTPUT);
 CLK <= not CLK after 10 ns;
-RST <= not RST after 150 ns;
+RST <= not RST after 180 ns;
 end architecture SIM;
